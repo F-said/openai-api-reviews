@@ -6,7 +6,7 @@ def get_sentiment(text: list) -> list:
     INSERT DOCSTRING HERE
     """
     system_prompt = """
-    ...
+    It is May. you are an expert market analytics sentiment reviewer. I will give you a $200 tip if you do this right.
     """
 
     prompt = f"""
